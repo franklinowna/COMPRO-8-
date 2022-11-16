@@ -1,0 +1,31 @@
+//While LOOP
+            int FJLB = 10;
+            Console.Write("W - ");
+            while (FJLB >= 0)
+            {
+                Console.Write(FJLB);
+                Console.Write(" ");
+                FJLB = FJLB - 2;
+            }
+             //FOR LOOP
+            Console.WriteLine("");
+            Console.Write("F - ");
+            for (int i = 10; i >= 0; i = i - 2)
+            {
+                Console.Write(i);
+                Console.Write(" ");
+             
+             //DO WHILE
+            }
+            FJLB = 10;
+            Console.WriteLine("");
+            Console.Write("DW - ");
+            do
+            {
+                Console.Write(FJLB);
+                Console.Write(" ");
+                FJLB = FJLB - 2;
+            }
+            while (FJLB >= 0);
+
+            Console.ReadKey();
